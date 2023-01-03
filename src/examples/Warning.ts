@@ -11,6 +11,7 @@ export const WarningObject = {
     {
       id: "button-cancel", //used to know what button was clicked, retunred with modal return object
       label: "No",
+      cancel: true,
       type: "white", //blue //red
     },
     {

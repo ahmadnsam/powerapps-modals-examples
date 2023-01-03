@@ -1,4 +1,6 @@
 import { ErrorObject } from "../examples/Error";
+import { MultiSelectObject } from "../examples/MultiSelect";
+import { RequiredInputObject } from "../examples/RequiredInputs";
 import { SideObject } from "../examples/Side";
 import { SuccessObject } from "../examples/Success";
 import { WarningObject } from "../examples/Warning";
@@ -16,5 +18,11 @@ export class ContactForm {
   }
   static onSide() {
     PopupHelper.display(SideObject, 400, "100%", 2);
+  }
+  static required() {
+    PopupHelper.display(RequiredInputObject, 400, 400, 1);
+  }
+  static multi() {
+    PopupHelper.display(MultiSelectObject, 400, 400, 1);
   }
 }

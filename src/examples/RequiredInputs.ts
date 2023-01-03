@@ -1,4 +1,4 @@
-export const SuccessObject = {
+export const RequiredInputObject = {
   icon: "success",
   labels: [
     { text: "Published!", type: "h1" },
@@ -12,6 +12,8 @@ export const SuccessObject = {
       id: "choiceexample",
       label: "Category",
       type: "choice",
+      required: true,
+      errorMessage: "Custom error message here!",
       options: [
         { id: "opt1", label: "Customer" },
         { id: "opt2", label: "Prospect" },

@@ -41,6 +41,7 @@ export const SideObject = {
     {
       id: "button-cancel", //used to know what button was clicked, retunred with modal return object
       label: "Cancel",
+      cancel: true,
       type: "white", //blue //red
     },
     {

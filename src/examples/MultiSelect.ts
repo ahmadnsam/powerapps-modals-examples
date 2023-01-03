@@ -1,4 +1,4 @@
-export const SuccessObject = {
+export const MultiSelectObject = {
   icon: "success",
   labels: [
     { text: "Published!", type: "h1" },
@@ -12,6 +12,7 @@ export const SuccessObject = {
       id: "choiceexample",
       label: "Category",
       type: "choice",
+      multi: true,
       options: [
         { id: "opt1", label: "Customer" },
         { id: "opt2", label: "Prospect" },
